@@ -4,7 +4,9 @@ const disregarded = [7, 10];
 
 function pickNamedPile(piles) {
   //Tu codigo aqui  👈;
+  const { chosen } = piles;
+  return chosen;
 }
 
-pickNamedPile({ chosen, disregarded });
+console.log(pickNamedPile({ chosen, disregarded }));
 // => [5, 4]
