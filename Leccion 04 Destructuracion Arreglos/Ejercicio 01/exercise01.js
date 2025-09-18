@@ -1,7 +1,7 @@
-const deck = [5, 9, 7, 1, 8];
-
 function getFirstCard(deck) {
-  //Tu codigo aqui  👈;
+  const [firstCard] = deck; 
+  return firstCard;
 }
 
-getFirstCard(deck);
+const deck = [5, 9, 7, 1, 8];
+console.log(getFirstCard(deck));
