@@ -1,7 +1,8 @@
 const deck = [3, 2, 10, 6, 7];
 
 function getSecondCard(deck) {
-  //Tu codigo aqui  👈;
+  const [, secondCard] = deck;
+  return secondCard;
 }
 
-getSecondCard(deck);
+console.log(getSecondCard(deck));
